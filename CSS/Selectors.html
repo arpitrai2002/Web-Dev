@@ -8,7 +8,7 @@
         body{
             background-color: cornflowerblue;
         }
-        h1{
+        h1{                                         /*Element Selector*/
             font-family: cursive;
         }
         .p1{
@@ -21,14 +21,17 @@
         .g1{
             font-size: small;
         }
-        .g2{
+        .g2{                            /*Class selector*/
             font-size: large;
         }
-        button:hover{
+        button:hover{                  /*Pseudo-Class Selector*/
             color: red;
         }
-        *{
+        *{                                             /*universal selector */
             color: violet;
+        }
+        #a1{                                /*ID selector*/
+            color: chocolate;
         }
     </style>
 </head>
@@ -43,6 +46,8 @@
     <h4 class="g2">h4</h4>
     <h5 class="g2">h5</h5>
     <h6 class="g2">h6</h6>
+
+    <article id="a1">Lorem ipsum dolor sit amet.</article>
 
     <button>Click Me</button>
 </body>
