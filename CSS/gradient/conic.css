@@ -1,0 +1,6 @@
+.div{
+    border: 1px black solid;
+    height: 200px;
+    width: 200px;
+    background-image: repeating-conic-gradient(red,blue,green);
+}
