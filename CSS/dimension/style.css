@@ -1,0 +1,11 @@
+.div{
+    border: 1px black solid;
+    max-height: 200px;
+    width: 200px;
+
+}
+.c1{
+    border: 1px black solid;
+    min-height: 200px;
+    width: 200px;
+}
