@@ -1,0 +1,6 @@
+.d1{
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+    box-shadow: -3px -3px red,3px -3px red,-3px 3px red,3px 3px red;
+}
