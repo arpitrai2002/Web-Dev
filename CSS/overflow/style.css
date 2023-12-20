@@ -1,0 +1,26 @@
+.d1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+
+}
+.d2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+}
+.d3{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+.d4{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+}
