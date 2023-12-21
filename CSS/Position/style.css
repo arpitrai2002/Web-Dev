@@ -1,0 +1,32 @@
+body{
+    height: 1000px;
+    width: 1000px;
+    background-color: yellowgreen;
+}
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+#b1{
+    position: static;
+}
+#b2{
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+#b3{
+    /* position: fixed; */
+}
+#b4{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+#b5{
+    position: sticky;
+    top: 0px;
+}
