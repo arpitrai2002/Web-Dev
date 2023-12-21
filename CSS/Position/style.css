@@ -19,7 +19,7 @@ body{
     left: 20px;
 }
 #b3{
-    /* position: fixed; */
+    position: fixed;
 }
 #b4{
     position: absolute;
