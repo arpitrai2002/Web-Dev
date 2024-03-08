@@ -8,6 +8,7 @@
     justify-content: center;
     /* align-items:baseline; */
     align-content:space-between;
+    text-align: center;
 }
 
 .box{
