@@ -1,0 +1,34 @@
+.container{
+    border: 2px soild black;
+    background-color: burlywood;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px ;
+}
+
+.box{
+    border: 2px soild black;
+    background-color: aqua;
+}
+#b1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#b2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#b3{
+    grid-column-start:2;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#b4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
