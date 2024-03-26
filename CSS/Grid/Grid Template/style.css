@@ -1,0 +1,32 @@
+.container{
+    background-color: chocolate;
+    border: 1px solid black;
+    height: 700px;
+
+    display: grid;
+
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 30px 500px 30px;
+
+    grid-template-areas:
+    "hd hd"
+    "side main"
+    "ft ft";
+}
+
+.box{
+    background-color: wheat;
+    border: 1px solid green;
+}
+#b1{
+    grid-area: hd;
+}
+#b2{
+    grid-area: side;
+}
+#b3{
+    grid-area: ft;
+}
+#b4{
+    grid-area: main;
+}
