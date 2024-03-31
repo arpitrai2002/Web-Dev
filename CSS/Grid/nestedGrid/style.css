@@ -1,0 +1,52 @@
+.container{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 900px;
+    width: 900px;
+
+    display: grid;
+
+    gap: 10px;
+    grid-template-columns: 200px 500px;
+    grid-template-rows: 20px 300px 20px;
+
+    grid-template-areas: 
+    "hd hd"
+    "s1 main"
+    "ft ft";
+}
+
+.box{
+    background-color: aquamarine;
+    border: 1px solid green;
+}
+#b1{
+    grid-area: hd;
+}
+#b2{
+    grid-area: main;
+}
+#b3{
+    grid-area: s1;
+}
+
+#b5{
+    grid-area: ft;
+}
+
+.nested{
+    display: grid;
+
+    height: 100%;
+    width: 100%;
+
+    gap: 2px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.img{
+    background-color: turquoise;
+    border: 1px solid green;
+}
+
+
