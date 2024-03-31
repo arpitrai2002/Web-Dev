@@ -1,0 +1,25 @@
+/* *{
+    --kariya:#1bbd1954;
+} */
+:root{
+    --bhura:#320c10;
+}
+.container{
+    background-color:var(--kariya);
+    border: 1px solid black;
+    height: 500px;
+    width: 200px;
+    /* gap: 10px; */
+}
+*{
+    --kariya:#2f19bd54;
+}
+.box{
+    /* background-color: darkblue; */
+    border: 1px solid black;
+    margin: 10px;
+    --lal:#e06b7a;
+
+
+    color:var(--kariya);
+}
