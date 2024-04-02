@@ -20,5 +20,6 @@ body{
 .box:hover{
     transform: translate(450px);
     transform: translate(450px);
+    transition: all;
 
 }
