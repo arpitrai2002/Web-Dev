@@ -15,10 +15,16 @@ body{
     width: 50px;
     border: 3px solid wheat;
     background-color: aliceblue;
+}
+#a{
     transition: transform 1s ease-in-out;
 }
-.box:hover{
+#a:hover{
     transform: translate(450px);
-    transform: translate(450px);
-
+}
+#b{
+    transition: transform 1s linear;
+}
+#b:hover{
+    transform: translateY(390px);
 }
