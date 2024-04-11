@@ -1,0 +1,15 @@
+/* Styles for map container */
+.map-container {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+}
+
+/* Styles for alerts container */
+.alerts-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
